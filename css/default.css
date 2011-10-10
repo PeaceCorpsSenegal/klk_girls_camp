@@ -1,0 +1,214 @@
+table tr {
+	margin: 100px;
+}
+body {
+	margin: 0;
+	padding-bottom: 100px;
+	background-color: #FFC; // background for whole page
+	color: black; // color of whole page text
+	position: relative;
+	background-image: url(../images/gc_bg.png);
+	background-repeat: no-repeat;
+	font: 12px verdana,sans-serif;
+}
+p {
+	text-align: justify;
+}
+p.sidebar_p {
+	padding: 5px 15px 5px 15px;
+}
+span.time {
+	float:left;
+	clear: left;
+	width: 100px;
+}
+span.sched_desc {
+	float: left;
+}
+a:visited {
+	color:#900;
+}
+a {
+	color:yellow;
+}
+a:hover {
+	color:#FFF;
+}
+img {
+	border-width: 0;
+}
+h1 {
+}
+img.intext_right {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+img.intext_left {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+div#header {
+	//background-color: black; // background color of header
+	position: absolute;
+	width: 100%;
+	padding-top: 35px;
+	background-image: url(../images/header_curve.png);
+	background-repeat:repeat-x;
+}
+div#menu_container {
+	background-color: ;
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+div#footer_content {
+	background-color: ;
+	width: 800px;
+	margin: 0 auto;
+	padding-left: 200px;
+	text-align: center;
+}
+div#footer {
+	background-color: black;
+	color: white;
+	//position: absolute;
+	//bottom: 0;
+	//left: 0;
+	width: 100%;
+	height: 59px;
+	background-image: url(../images/footer_curve.png);
+	background-repeat:repeat-x;
+}
+div#footer a, div#footer a:visited {
+	color: yellow;
+}
+div#main {
+	background-color: ;
+	width: 800px;
+	margin: 0 auto;
+	background-image: url(../images/gc_bg_center.png);
+	background-repeat: no-repeat;
+}
+div#menu {
+	margin-left: 200px;
+}
+img#pcsenegal {
+	padding: 20px 0 20px 0;
+}
+div#sidebar {
+	/* RGBa with opacity */
+	background: rgba(69,123,74,0.5);
+	color: #000000;
+	width: 190px;
+	float: left;
+	position: relative;
+	top: -50px;
+	//padding-top: 10px;
+	border-top-left-radius: 95px;
+	border-top-right-radius: 95px;
+	-moz-border-radius-topleft: 95px;
+	-moz-border-radius-topright: 95px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(69, 123, 74) transparent;
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f457b4a, endColorstr=#7f457b4a);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f457b4a, endColorstr=#7f457b4a)";
+}
+
+div#content {
+	margin: 0px 0 10px 200px;
+}
+div#content_wrapper {
+	/* RGBa with opacity */
+	background: rgba(86,153,92,0.5);
+	padding: 10px 15px 10px 15px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(69, 123, 74) transparent;
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f56995c, endColorstr=#7f56995c);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f56995c, endColorstr=#7f56995c)";
+}
+img#logo {
+	width: 190px;
+	//position: absolute;
+	//top: 0;
+	//left: 0;
+	background-color: ;
+}
+	
+	
+#sddm {
+	margin: 0;
+	padding: 0;
+	z-index: 30
+}
+#sddm li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial;
+}
+
+#sddm li a {
+	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 8px;
+	width: 133px;
+	background: ;
+	color: yellow;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+}
+#sddm li a:hover {
+	background: green; // menu hover background
+	
+}
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	border: 0px solid #5970B2;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	
+}
+	#sddm div a {
+		position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: black; // dropdown menu background
+		color: white; // dropdown menu text color
+		font: 11px arial;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+	}
+
+	#sddm div a:hover {
+		background: green; // dropdown hover background color
+		color: black; // dropdown hover text color
+		
+		filter:alpha(opacity=100);
+		-moz-opacity: 1;
+		-khtml-opacity: 1;
+		opacity: 1;
+	}
